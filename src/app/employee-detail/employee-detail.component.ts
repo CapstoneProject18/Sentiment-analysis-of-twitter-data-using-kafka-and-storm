@@ -39,7 +39,7 @@ import { EmployeeService } from '../employee.service';
   </tr>
   <tr *ngFor="let employee of employees">
     <td>{{employee.userid}}</td>
-    <td>{{employee.tweet}}</td>
+    <td style="text-align:left;">{{employee.tweet}}</td>
     <td>{{employee.sentiment}}</td>
   </tr>
     </table>
