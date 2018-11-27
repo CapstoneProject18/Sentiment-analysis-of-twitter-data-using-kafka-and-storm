@@ -1,8 +1,9 @@
 [
-    {"id": 4569, "name": "Sangamesh", "age":22},
-    {"id": 7546, "name": "Kundan", "age":21},
-    {"id": 1248, "name": "Simran", "age":23},
-    {"id": 4751, "name": "Yash", "age":22},
-    {"id": 5458, "name": "Robin", "age":19},
-    {"id": 6124, "name": "Suraj", "age":21}
+    {"userid": "@sanga69", "tweet": "I'm AAP suporter", "sentiment":"hate"},
+    {"userid": "@kundango", "tweet": "CS is my life", "sentiment":"happy"},
+    {"userid": "@nakshim", "tweet": "I do nails", "sentiment":"bored"},
+    {"userid": "@robinop6t", "tweet": "bought new phone", "sentiment":"excited"},
+    {"userid": "@suraj", "tweet": "a6 is love", "sentiment":"love"},
+    {"userid": "@yashj302", "tweet": "i want new gadgets", "sentiment":"pity"},
+    {"userid": "@fayazpoco", "tweet": "I've beast in my pocket", "sentiment":"proud"}
 ]

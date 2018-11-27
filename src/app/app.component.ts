@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'employee-list';
+  title = 'Sentimental Analysis of Tweeter Data using Storm and kafka';
 }
