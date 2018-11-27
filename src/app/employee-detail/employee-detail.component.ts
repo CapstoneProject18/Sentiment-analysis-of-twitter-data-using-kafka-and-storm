@@ -14,7 +14,6 @@ import { EmployeeService } from '../employee.service';
       font-family: product sans;
       border-collapse: collapse;
       width: 100%;
-      text-align: center;
     }
     tr, th, td{
       font-family: product sans;
@@ -33,14 +32,14 @@ import { EmployeeService } from '../employee.service';
     <h2 style>Tweets Detail along with sentiments</h2>
     <table>
   <tr>
-    <th>User Id</th>
-    <th>Tweet</th>
-    <th>Sentiment</th>
+    <th>Created At</th>
+    <th>Username</th>
+    <th>Tweets/Retweet</th>
   </tr>
   <tr *ngFor="let employee of employees">
-    <td>{{employee.userid}}</td>
-    <td style="text-align:left;">{{employee.tweet}}</td>
-    <td>{{employee.sentiment}}</td>
+    <td>{{employee.created_at}}</td>
+    <td style="text-align:left;">@{{employee.user.screen_name}}</td>
+    <td>{{employee.text}}</td>
   </tr>
     </table>
     
