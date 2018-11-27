@@ -1,9 +1,104 @@
-[
-    {"userid": "@sanga69", "tweet": "I'm AAP suporter", "sentiment":"hate"},
-    {"userid": "@kundango", "tweet": "CS is my life", "sentiment":"happy"},
-    {"userid": "@nakshim", "tweet": "I do nails", "sentiment":"bored"},
-    {"userid": "@robinop6t", "tweet": "bought new phone", "sentiment":"excited"},
-    {"userid": "@suraj", "tweet": "a6 is love", "sentiment":"love"},
-    {"userid": "@yashj302", "tweet": "i want new gadgets", "sentiment":"pity"},
-    {"userid": "@fayazpoco", "tweet": "I've beast in my pocket", "sentiment":"proud"}
-]
+{  
+    "created_at":"Tue Nov 27 09:04:57 +0000 2018",
+    "id":1067343510532222977,
+    "id_str":"1067343510532222977",
+    "text":"@TrilokB74994798 @KaushalyaAmrita At present Rahul Gandhi is pracharak of bjp",
+    "display_text_range":[  
+       34,
+       77
+    ],
+    "source":"\u003ca href=\"http:\/\/twitter.com\/#!\/download\/ipad\" rel=\"nofollow\"\u003eTwitter for iPad\u003c\/a\u003e",
+    "truncated":false,
+    "in_reply_to_status_id":1067065631588171776,
+    "in_reply_to_status_id_str":"1067065631588171776",
+    "in_reply_to_user_id":985034900179947520,
+    "in_reply_to_user_id_str":"985034900179947520",
+    "in_reply_to_screen_name":"TrilokB74994798",
+    "user":{  
+       "id":996628739202191361,
+       "id_str":"996628739202191361",
+       "name":"vishwas nayak",
+       "screen_name":"vishwasnayak16",
+       "location":"ahmedabad",
+       "url":null,
+       "description":"fashion designer and fashion photographer, my daily routine jogging, swimming, cycling and @ store",
+       "translator_type":"none",
+       "protected":false,
+       "verified":false,
+       "followers_count":15,
+       "friends_count":107,
+       "listed_count":0,
+       "favourites_count":1401,
+       "statuses_count":668,
+       "created_at":"Wed May 16 05:49:42 +0000 2018",
+       "utc_offset":null,
+       "time_zone":null,
+       "geo_enabled":false,
+       "lang":"en",
+       "contributors_enabled":false,
+       "is_translator":false,
+       "profile_background_color":"F5F8FA",
+       "profile_background_image_url":"",
+       "profile_background_image_url_https":"",
+       "profile_background_tile":false,
+       "profile_link_color":"1DA1F2",
+       "profile_sidebar_border_color":"C0DEED",
+       "profile_sidebar_fill_color":"DDEEF6",
+       "profile_text_color":"333333",
+       "profile_use_background_image":true,
+       "profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1009321808065990656\/95e2g3Gz_normal.jpg",
+       "profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1009321808065990656\/95e2g3Gz_normal.jpg",
+       "default_profile":true,
+       "default_profile_image":false,
+       "following":null,
+       "follow_request_sent":null,
+       "notifications":null
+    },
+    "geo":null,
+    "coordinates":null,
+    "place":null,
+    "contributors":null,
+    "is_quote_status":false,
+    "quote_count":0,
+    "reply_count":0,
+    "retweet_count":0,
+    "favorite_count":0,
+    "entities":{  
+       "hashtags":[  
+ 
+       ],
+       "urls":[  
+ 
+       ],
+       "user_mentions":[  
+          {  
+             "screen_name":"TrilokB74994798",
+             "name":"\u0924\u094d\u0930\u093f\u0932\u094b\u0915 \u092c\u093f\u0937\u094d\u091f \ud83c\udf20 y\u0138\u043c \ud83c\udf20",
+             "id":985034900179947520,
+             "id_str":"985034900179947520",
+             "indices":[  
+                0,
+                16
+             ]
+          },
+          {  
+             "screen_name":"KaushalyaAmrita",
+             "name":"Amrita Kaushalya",
+             "id":779948265299124225,
+             "id_str":"779948265299124225",
+             "indices":[  
+                17,
+                33
+             ]
+          }
+       ],
+       "symbols":[  
+ 
+       ]
+    },
+    "favorited":false,
+    "retweeted":false,
+    "filter_level":"low",
+    "lang":"en",
+    "timestamp_ms":"1543309497851"
+ }
