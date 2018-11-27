@@ -7,7 +7,7 @@ import { EmployeeService } from '../employee.service';
   <style>
     h2{
       font-family:product sans;
-      background-color: #e0e0e0;
+      background-color: #efeded;
       text-align: center;
     }
     table{
@@ -43,11 +43,6 @@ import { EmployeeService } from '../employee.service';
     <td>{{employee.sentiment}}</td>
   </tr>
     </table>
-  
-    <ul *ngFor="let employee of employees">
-      <li>Id = {{employee.userid}}  -  {{employee.tweet}}</li>
-      <br> Sentiment = {{employee.sentiment}}
-    </ul>
     
   `,
   styles: []
