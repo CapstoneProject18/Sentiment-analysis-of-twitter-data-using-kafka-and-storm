@@ -6,7 +6,7 @@ import { EmployeeService } from '../employee.service';
   template: `
   <style>
     h2{
-      font-family:product sans;
+            font-family:product sans;
       background-color: #efeded;
       text-align: center;
     }
@@ -21,15 +21,20 @@ import { EmployeeService } from '../employee.service';
       padding: 8px;
       }
 
-      td{
+      /*td{
         padding: 0.5em 8em;
+      }*/
+
+      th{
+        text-align:center;
+        font-size:2rem;
       }
       
       tr:nth-child(even) {
         background-color: #dddddd;
       }
   </style>
-    <h2 style>Tweets Detail along with sentiments</h2>
+    <h2>Tweets Detail along with sentiments</h2>
     <table>
   <tr>
     <th>Created At</th>

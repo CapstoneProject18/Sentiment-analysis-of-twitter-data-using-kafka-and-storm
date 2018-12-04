@@ -1,15 +1,42 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<div >
   <style>
-    h1{
+    h5{
+      margin-top: 0%;
+      margin-bottom: 3%;
       font-family: product sans;
+      position: relative;
+      display: inline-block;
+      font-size: 6rem;
+      color: #00b3b4;
+      text-shadow: 3px 3px 0 #e7eef1, 8px 8px 0 rgba(0,0,0,0.1);
+      text-align: center;
+      font-family:product sans;
     }  
   </style>
-  <h1>
+  <h5>
     Welcome to {{ title }}!
-  </h1>
+  </h5>
+
+    <div class="btn-group" role="group">
+        <button routerLink="/" type="button" class="btn btn-primary btn-primary">Home</button>
+        <button routerLink="/EmployeeList" type="button" class="btn btn-secondary btn-info">Political Tweets</button>
+        <button routerLink="/EmployeeDetail" type="button" class="btn btn-secondary btn-info">Social Tweets</button>
+        <button routerLink="/" type="button" class="btn btn-secondary btn-info">Celebrity Tweets</button>
+        <button routerLink="/" type="button" class="btn btn-secondary btn-info">Sports Tweets</button>
+    </div>
+    
 </div>
 
 
+<!--
 <employee-detail></employee-detail>
-<!--<employee-list></employee-list>-->
+<employee-list></employee-list>
+-->
+<router-outlet></router-outlet>
+
