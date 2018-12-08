@@ -34,7 +34,7 @@ import { EmployeeService } from '../employee.service';
         background-color: #dddddd;
       }
   </style>
-    <h2>Tweets Detail along with sentiments</h2>
+    <h2 style="background-color:#00b3b4; color:white" >Tweets Detail along with sentiments</h2>
     <table>
   <tr>
     <th>Created At</th>

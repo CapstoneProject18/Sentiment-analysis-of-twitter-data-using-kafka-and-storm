@@ -6,6 +6,17 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <div >
   <style>
+    h3, p, ol {
+      font-family: product sans;
+      margin-left:7.5%;
+      margin-right: 7.5%;
+    }
+    h3{
+      background-color: #e0e0e0; 
+    }
+    p, ol{
+      font-size: 1.125em;
+    }
     h5{
       margin-top: 0%;
       margin-bottom: 3%;
@@ -18,25 +29,84 @@
       text-align: center;
       font-family:product sans;
     }  
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #00a5a5;
+  }
   </style>
+  </div>
+
+
+
   <h5>
     Welcome to {{ title }}!
   </h5>
-
-    <div class="btn-group" role="group">
-        <button routerLink="/" type="button" class="btn btn-primary btn-primary">Home</button>
-        <button routerLink="/EmployeeList" type="button" class="btn btn-secondary btn-info">Political Tweets</button>
-        <button routerLink="/EmployeeDetail" type="button" class="btn btn-secondary btn-info">Social Tweets</button>
-        <button routerLink="/" type="button" class="btn btn-secondary btn-info">Celebrity Tweets</button>
-        <button routerLink="/" type="button" class="btn btn-secondary btn-info">Sports Tweets</button>
-    </div>
+  <ul style="font-family: product sans; margin-left: 5%; margin-right: 5%; font-size: 1.75rem; ">
+    <li><a routerLink="/Home" class="active">Home</a></li>
+    <li><a routerLink="/EmployeeList">Political Tweets</a></li>
+    <li><a routerLink="/EmployeeDetail">Social Tweets</a></li>
+    <li><a routerLink="/">Celebrity Tweets</a></li>
+    <li><a routerLink="/">Sports Tweets</a></li>
+  </ul>
+    <br>
     
-</div>
+      <!--
+        <h2 style="font-family: product sans; text-align: center; color:maroon"><b>Welcome to our website.</b></h2>
+        <h3>What our platform does?</h3>
+        <p>Our website gives you the opportunity to see the tweets which 
+        we are taking directly from the Twitter using API. Our website
+         allows you to check the sentiments associated with those tweets.
+          For achieving this, we are using Kafka for pipelining the data from 
+          the twitter API and then we are using Storm to further process the
+           data that we are taking from the Twitter. As a result, we get
+            Sentiments associated with those tweets beside every tweet.
+             Then we are displaying it in our webpage using Angular 7.</p>
+   
+        <h3>How our platform is useful?</h3>
+
+        <h3>How to use our platform?</h3>
+        <p>As an end user, what our platform will provide you is that, you will be able to see the tweets
+           from the twitter in our web page which will be segregated in specified domains like Political 
+           Tweets, Social Tweets, Celebrity Tweets, Sports Tweets etc. Clicking on any of the domain will
+            show you the list of tweets with the most recent tweets on top and sentiments on the rightmost 
+            section of that tweet.</p>
+   
+        <h3>Major Technologies Used in this platform.</h3>
+        <ol>
+          <li>Kafka</li><br>
+          <li>Storm</li><br>
+          <li>Angular</li><br>
+        </ol>
+
+        <h3>What each of these Technologies are doing individually?</h3>
+        -->
+
 
 
 <!--
 <employee-detail></employee-detail>
 <employee-list></employee-list>
+<app-home></app-home>
 -->
+
 <router-outlet></router-outlet>
 

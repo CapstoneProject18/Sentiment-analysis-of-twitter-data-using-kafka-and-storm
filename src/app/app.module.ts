@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 
 import { EmployeeService } from './employee.service';
 import { HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents
+    routingComponents,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
