@@ -11,7 +11,7 @@ import { EmployeeService } from '../employee.service';
   </style>
     <h3>Users who posted tweets</h3>
     <ul *ngFor="let employee of employees">
-      <li>{{employee.userid}}</li>
+      <li>{{employee.created_at}}</li>
     </ul>
   `,
   styles: []

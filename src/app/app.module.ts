@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { EmployeeService } from './employee.service';
 import { HttpClientModule} from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
+import { Tweet1Component } from './tweet1/tweet1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     routingComponents,
-    HomeComponent
+    HomeComponent,
+    Tweet1Component
   ],
   imports: [
     BrowserModule,

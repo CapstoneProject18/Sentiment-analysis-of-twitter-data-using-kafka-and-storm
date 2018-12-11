@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { EmployeeService } from '../employee.service';
 
+
 @Component({
-  selector: 'employee-detail',
+  selector: 'app-tweet1',
   template: `
   <style>
     h2{
@@ -49,9 +50,9 @@ import { EmployeeService } from '../employee.service';
     </table>
     
   `,
-  styles: []
+  styleUrls: []
 })
-export class EmployeeDetailComponent implements OnInit {
+export class Tweet1Component implements OnInit {
 
   public employees = [];
 
