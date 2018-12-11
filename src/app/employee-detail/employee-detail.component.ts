@@ -13,8 +13,8 @@ import { EmployeeService } from '../employee.service';
     table{
       font-family: product sans;
       border-collapse: collapse;
-      width: 100%;
-    }
+      width: 90%;
+      }
     tr, th, td{
       font-family: product sans;
       border: 1px solid #dddddd;
@@ -34,8 +34,8 @@ import { EmployeeService } from '../employee.service';
         background-color: #dddddd;
       }
   </style>
-    <h2 style="background-color:#00b3b4; color:white" >Tweets Detail along with sentiments</h2>
-    <table>
+    <h2 style="background-color:#00b3b4; color:white; margin-right:5%; margin-left:5%;" >Tweets Detail along with sentiments</h2>
+    <table align="center"s>
   <tr>
     <th>Created At</th>
     <th>Tweet/ReTweet</th>
