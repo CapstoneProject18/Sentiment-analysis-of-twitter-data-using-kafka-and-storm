@@ -5,14 +5,13 @@ import { EmployeeService } from '../employee.service';
   selector: 'employee-list',
   template: `
   <style>
-    h3, ul{
+    h1{
       font-family: product sans;
+      text-align: center;
+      margin-top: 10%;
     }
   </style>
-    <h3>Users who posted tweets</h3>
-    <ul *ngFor="let employee of employees">
-      <li>{{employee.created_at}}</li>
-    </ul>
+  <h1>COMING SOON...</h1>
   `,
   styles: []
 })

@@ -42,9 +42,9 @@ import { EmployeeService } from '../employee.service';
     <th>Tweets/Retweet</th>
   </tr>
   <tr *ngFor="let employee of employees">
-    <td>{{employee.created_at}}</td>
-    <td style="text-align:left;">@{{employee.user.screen_name}}</td>
-    <td>{{employee.user.description}}</td>
+    <td>{{employee.tweet_id}}</td>
+    <td style="text-align:left;">@{{employee.tweet_text}}</td>
+    <td>{{employee.tweet_sentiment}}</td>
   </tr>
     </table>
     
