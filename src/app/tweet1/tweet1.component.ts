@@ -6,49 +6,13 @@ import { EmployeeService } from '../employee.service';
   selector: 'app-tweet1',
   template: `
   <style>
-    h2{
-            font-family:product sans;
-      background-color: #efeded;
+    h1{
+      font-family: product sans;
       text-align: center;
+      margin-top: 10%;
     }
-    table{
-      font-family: product sans;
-      border-collapse: collapse;
-      width: 100%;
-    }
-    tr, th, td{
-      font-family: product sans;
-      border: 1px solid #dddddd;
-      padding: 8px;
-      }
-
-      /*td{
-        padding: 0.5em 8em;
-      }*/
-
-      th{
-        text-align:center;
-        font-size:2rem;
-      }
-      
-      tr:nth-child(even) {
-        background-color: #dddddd;
-      }
   </style>
-    <h2 style="background-color:#00b3b4; color:white" >Tweets Detail along with sentiments</h2>
-    <table>
-  <tr>
-    <th>Created At</th>
-    <th>Username</th>
-    <th>Tweets/Retweet</th>
-  </tr>
-  <tr *ngFor="let employee of employees">
-    <td>{{employee.created_at}}</td>
-    <td style="text-align:left;">@{{employee.user.screen_name}}</td>
-    <td>{{employee.user.description}}</td>
-  </tr>
-    </table>
-    
+  <h1>COMING SOON...</h1>
   `,
   styleUrls: []
 })

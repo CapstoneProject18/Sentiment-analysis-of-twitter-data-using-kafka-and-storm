@@ -38,11 +38,11 @@ import { EmployeeService } from '../employee.service';
     <table>
   <tr>
     <th>Created At</th>
-    <th>Username</th>
-    <th>Tweets/Retweet</th>
+    <th>Tweet/ReTweet</th>
+    <th>Sentiment</th>
   </tr>
   <tr *ngFor="let employee of employees">
-    <td>{{employee.tweet_id}}</td>
+    <td>{{employee.tweet_created_at}}</td>
     <td style="text-align:left;">@{{employee.tweet_text}}</td>
     <td>{{employee.tweet_sentiment}}</td>
   </tr>
