@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <div >
   <style>
     h3, p, ol {
@@ -52,10 +53,20 @@
   li a:hover {
     background-color: #00a5a5;
   }
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+
+
   </style>
   </div>
-
-
 
   <h5>
     Welcome to {{ title }}!
@@ -66,10 +77,9 @@
     <li><a routerLink="/Tweet2">Sports Tweets</a></li>
     <li><a routerLink="/EmployeeList">Social Tweets</a></li>
     <li><a routerLink="/EmployeeDetail">Celebrity Tweets</a></li>
-    
   </ul>
-    <br>
-    
+
+  <br>
       <!--
         <h2 style="font-family: product sans; text-align: center; color:maroon"><b>Welcome to our website.</b></h2>
         <h3>What our platform does?</h3>
@@ -112,4 +122,3 @@
 -->
 
 <router-outlet></router-outlet>
-

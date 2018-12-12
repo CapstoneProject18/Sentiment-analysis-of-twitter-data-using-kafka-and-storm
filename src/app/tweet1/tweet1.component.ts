@@ -15,6 +15,9 @@ import { EmployeeService } from '../employee.service';
       font-family: product sans;
       border-collapse: collapse;
       width: 90%;
+      overflow-y:scroll;
+      height:610px;
+      display:block;
       }
     tr, th, td{
       font-family: product sans;

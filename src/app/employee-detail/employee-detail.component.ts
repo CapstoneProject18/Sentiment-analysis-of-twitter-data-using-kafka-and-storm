@@ -6,7 +6,7 @@ import { EmployeeService } from '../employee.service';
   template: `
   <style>
     h2{
-            font-family:product sans;
+      font-family:product sans;
       background-color: #efeded;
       text-align: center;
     }
