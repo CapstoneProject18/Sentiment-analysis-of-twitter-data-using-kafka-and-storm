@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { EmployeeService } from '../employee.service';
-
+import { Employee3Service } from '../employee3.service';
 
 @Component({
-  selector: 'app-tweet1',
-  template: `
+  selector: 'app-tweet3',
+  template:  `
   <style>
     h2{
             font-family:product sans;
@@ -39,16 +38,16 @@ import { EmployeeService } from '../employee.service';
       }
   </style>
     <h2 style="background-color:#00b3b4; color:white; margin-right:5%; margin-left:5%;" >Tweets Detail along with sentiments</h2>
-    <table align="center"s>
+    <table align="center">
   <tr>
     <th>Created At</th>
     <th>Tweet/ReTweet</th>
     <th>Sentiment</th>
   </tr>
-  <tr *ngFor="let employee of employees">
-    <td>{{employee.tweet_created_at}}</td>
-    <td style="text-align:left;">@{{employee.tweet_text}}</td>
-    <td>{{employee.tweet_sentiment}}</td>
+  <tr *ngFor="let employee3 of employees">
+    <td>{{employee3.tweet_created_at}}</td>
+    <td style="text-align:left;">@{{employee3.tweet_text}}</td>
+    <td>{{employee3.tweet_sentiment}}</td>
   </tr>
     </table>
     <br>
@@ -65,14 +64,15 @@ import { EmployeeService } from '../employee.service';
   `,
   styleUrls: []
 })
-export class Tweet1Component implements OnInit {
+
+export class Tweet3Component implements OnInit {
 
   public employees = [];
 
-  constructor(private _employeeService: EmployeeService) { }
+  constructor(private _employee3Service: Employee3Service) { }
 
   ngOnInit() {
-    this._employeeService.getEmployees()
+    this._employee3Service.getEmployees()
       .subscribe(data => this.employees = data);
   }
 

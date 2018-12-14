@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EmployeeService } from '../employee.service';
+import { Employee1Service } from '../employee1.service';
 
 @Component({
   selector: 'employee-detail',
@@ -41,10 +41,10 @@ import { EmployeeService } from '../employee.service';
     <th>Tweet/ReTweet</th>
     <th>Sentiment</th>
   </tr>
-  <tr *ngFor="let employee of employees">
-    <td>{{employee.tweet_created_at}}</td>
-    <td style="text-align:left;">@{{employee.tweet_text}}</td>
-    <td>{{employee.tweet_sentiment}}</td>
+  <tr *ngFor="let employee1 of employees">
+    <td>{{employee1.tweet_created_at}}</td>
+    <td style="text-align:left;">@{{employee1.tweet_text}}</td>
+    <td>{{employee1.tweet_sentiment}}</td>
   </tr>
     </table>
     
@@ -55,10 +55,10 @@ export class EmployeeDetailComponent implements OnInit {
 
   public employees = [];
 
-  constructor(private _employeeService: EmployeeService) { }
+  constructor(private _employee1Service: Employee1Service) { }
 
   ngOnInit() {
-    this._employeeService.getEmployees()
+    this._employee1Service.getEmployees()
       .subscribe(data => this.employees = data);
   }
 
