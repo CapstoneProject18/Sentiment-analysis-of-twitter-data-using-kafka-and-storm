@@ -9,7 +9,7 @@ import { Observable } from 'rxjs/Observable';
 })
 export class Employee2Service {
 
-  private _url: string = "assets/employee2.json";
+  private _url: string = "http://localhost:8083/json-api";
   
 
   constructor(private http: HttpClient) { }
