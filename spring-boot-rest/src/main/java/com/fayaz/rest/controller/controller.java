@@ -1,15 +1,16 @@
-package com.json.str;
+package com.fayaz.rest.controller;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.List;
 
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
 
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 @RestController
 public class controller {
 	
@@ -17,7 +18,7 @@ public class controller {
 	 
 	@RequestMapping("/json-api")
 	public String GetAllMovies() throws IOException {
-		 File file = new File("/home/robin/tweets-only.json"); 
+		 File file = new File("/home/robin/myfile.txt"); 
 		  
 		 
 		try {
